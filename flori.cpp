@@ -70,6 +70,6 @@ int AllTheWays=1;
             AllTheWays*=islandPaths(&matrix, i, &cols, &parent, N);
         }
     }
-    cerr<<AllTheWays<<"\n";
+    cout<<AllTheWays<<"\n";
     return 0;
 }
